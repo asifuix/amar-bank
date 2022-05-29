@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "shopify"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "saveto",
+		"git.ignoreLimitWarning": true,
+		"editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+		"editor.wordWrap": "on"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "pwa-node",
+				"request": "launch",
+				"name": "Launch Program",
+				"skipFiles": [
+					"<node_internals>/**"
+				],
+				"program": "f:\\javascript\\basic\\main.js",
+				"__workspaceFolder": "f:\\javascript\\basic"
+			}
+		]
+	}
+}

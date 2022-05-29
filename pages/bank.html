@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amar Bank</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <img src="../img/logo.png" alt="logo">
+    <h1>Good morning, Asif</h1>
+
+    <div class="banking-interface">
+        <div class="banking-card">
+            <div class="banking-content deposit">
+                <div class="card-title">
+                <h3>Deposit</h3>
+                <h2>$<span id="deposit-total">00</span></h2>
+            </div>
+            </div>
+            <div class="card-amount"></div>
+        </div>
+        <div class="banking-card">
+            <div class="banking-content withdraw">
+                <div class="card-title">
+                <h3>Withdraw</h3>
+                <h2>$<span id="withdraw-total">00</span></h2>
+            </div>
+            </div>
+            <div class="card-amount"></div>
+        </div>
+        <div class="banking-card">
+            <div class="banking-content balance">
+                <div class="card-title">
+                <h3>Balance</h3>
+                <h2>$<span id="balance-total">00</span></h2>
+            </div>
+            </div>
+            <div class="card-amount"></div>
+        </div>
+    </div>
+
+    <div class="deposit-withdaw">
+        <div id="deposit-form">
+            <label for="">Deposit</label>
+            <input type="text" placeholder="$ Deposit amount" id="deposit-input">
+            <button id="deposit-submit">Deposit</button>
+        </div>
+        <div id="withdraw-form">
+            <label for="">Withdraw</label>
+            <input type="text" placeholder="$ Withdraw amount" id="withdraw-input">
+            <button id="withdraw-submit">Withdraw</button>
+        </div>
+    </div>
+
+    <div class="logout">
+        <button id="logout-btn">Logout</button>
+    </div>
+
+    <script src="../js/bank-function.js"></script>
+</body>
+</html>
