@@ -10,7 +10,7 @@ document.getElementById('login-submit').addEventListener('click', function(){
 
     // Check email and password
     if (userEmail == 'asif@amarbank.com' && userPassword == 'asif123') {
-        window.location.href = '../pages/bank.html';
+        window.location.href = './pages/bank.html';
     }
     else {
         alert ('Invalid User');
